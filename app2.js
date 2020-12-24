@@ -1,5 +1,3 @@
-(function () {
-
 var startTimerButton = document.querySelector('.startTimer');
 var startTimerButton1 = document.querySelector('.startTimer1');
 var pauseTimerButton = document.querySelector('.pauseTimer');
@@ -168,5 +166,3 @@ function getShowTime1(){
   seconds1 = (seconds1 < 10) ? "0" + seconds1 : seconds1;
   timerDisplay1.innerHTML = minutes1 + ':' + seconds1;
 }
-
-}());
