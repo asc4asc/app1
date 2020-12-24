@@ -7,7 +7,7 @@
 			s = jetzt.getSeconds();
 		m = fuehrendeNull(m);
 		s = fuehrendeNull(s);
-		document.getElementById('uhr')
+		document.getElementById('uhr1')
 			.innerHTML = h + ':' + m + ':' + s;
 		setTimeout(uhrzeit, 500);
 	}
