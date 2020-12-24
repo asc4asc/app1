@@ -1,4 +1,4 @@
-use strict';
+'use strict';
 (function () {
 	function uhrzeit() {
 		var jetzt = new Date(),
