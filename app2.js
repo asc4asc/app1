@@ -76,8 +76,6 @@ function pauseTimer1(){
     savedTime1 = difference1;
     paused1 = 1;
     running1 = 0;
-    timerDisplay1.style.background = "#A90000";
-    timerDisplay1.style.color = "#690000";
     timerDisplay1.style.cursor = "pointer";
     startTimerButton1.classList.remove('lighter');
     pauseTimerButton1.classList.add('lighter');
@@ -95,8 +93,6 @@ function resetTimer(){
   paused = 0;
   running = 0;
   timerDisplay.innerHTML = '3:00';
-  timerDisplay.style.background = "#A90000";
-  timerDisplay.style.color = "#fff";
   timerDisplay.style.cursor = "pointer";
   startTimerButton.classList.remove('lighter');
   pauseTimerButton.classList.remove('lighter');
@@ -111,8 +107,6 @@ function resetTimer1(){
   paused1 = 0;
   running1 = 0;
   timerDisplay1.innerHTML = '1:00';
-  timerDisplay1.style.background = "#A90000";
-  timerDisplay1.style.color = "#fff";
   timerDisplay1.style.cursor = "pointer";
   startTimerButton1.classList.remove('lighter');
   pauseTimerButton1.classList.remove('lighter');
