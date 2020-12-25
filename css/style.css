@@ -21,22 +21,7 @@ html,
 .title {
   font-size: 3rem;
 }
-
-   body { background-color: grey; } 
-   f1a { color: blue; }
-   f2a { color: blue; }
-   c1y { color: yellow; } 
-   c1r { color: red; } 
-   c2y { color: yellow; } 
-   c2r { color: red; }   
-   c1py { color: yellow; } 
-   c1pr { color: red; } 
-   c2py { color: yellow; } 
-   c2pr { color: red; }  
-   c1pb { color: black; } 
-   c2pb { color: black; } 
-   ab { color: white; }  
-
+  
 @media only screen and (max-width: 600px) {
    body { background-color: lightblue; }   
    IfSmallNotNeed { display: none !important; } 
