@@ -5,6 +5,7 @@ var filesToCache = [
   'js/main.js',
   'app1.js',
   'css/style.css',
+  'css/media.css',
   'app2.js',
   'app3.js'
 ];
